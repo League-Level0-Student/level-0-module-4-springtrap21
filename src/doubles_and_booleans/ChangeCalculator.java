@@ -15,7 +15,7 @@ public class ChangeCalculator {
 	public static void main(String[] args) {
 
 		// Ask the user how many nickels they have
-
+		String smg = JOptionPane.showInputDialog("How many of ze nikels do you ze have? TELL ME!!!");
 		// Convert their answer to an int using Integer.parseInt()
 
 		// Ask the user how many dimes they have, and convert their answer
