@@ -14,6 +14,7 @@ public class HappyPet {
 		int petChoice = JOptionPane.showOptionDialog(null, "What pet do you want?", "Pet Chooser", 0, JOptionPane.INFORMATION_MESSAGE, null,
 				pets = new String[] { "Dog","Cat","hipi" }, null);
 		// 7. REPEAT steps 3 - 6 enough times to make your pet happy!
+		while (happinessLevel < 50 ) {
 		
 			// 3. Use showOptionDialog to ask the user what they want to do to make their pet happy
 			//    (eg: cuddle, food, water, take a walk, groom, clean up poop).
@@ -31,9 +32,11 @@ public class HappyPet {
 			else if (task == 2) {
 				walk();
 			}
-			
+	}
 			// 6. If you determine the happiness level is large enough, tell the
 			//    user that he loves his pet and use break; to exit for loop.
+			
+				JOptionPane.showMessageDialog(null, "Your pet loves you!...");
 			
 	}
 
